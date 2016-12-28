@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firstproject.mendy.webeditor.HtmlEditorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <MultiAutoCompleteTextView
+        android:id="@+id/fragment_html_multiautocompletetextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:hint="ex: &#60;p id=&#34;demo&#34; onclick=&#34;myFunction()&#34;&#62;hello world !&#60;/p&#62;" />
+
+</FrameLayout>
